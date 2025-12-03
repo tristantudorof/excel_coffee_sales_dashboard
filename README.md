@@ -16,7 +16,7 @@ This project explores and analyzes coffee order trends to uncover insights that 
 
 Build an interactive sales dashboard to showcases coffee sales and analyze, to identify sales trends.
 
-# 1. ASK
+# 1. Ask
 
 • What country had the highst amount of sales?
 
