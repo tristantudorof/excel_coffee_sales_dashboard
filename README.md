@@ -14,4 +14,4 @@ Build an interactive sales dashboard to showcases coffee sales and analyze, to i
 
 # 2. Prepare
 
-Dataset:[coffeeOrdersData.xlsx](https://github.com/user-attachments/files/23893265/coffeeOrdersData.xlsx)
+Dataset: [coffeeOrdersData.xlsx](https://github.com/user-attachments/files/23893265/coffeeOrdersData.xlsx)
