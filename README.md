@@ -291,3 +291,107 @@ Next thing to do is make my timeline and slicers work on all of the graphs. To d
 <img width="1290" height="572" alt="Screenshot 2025-12-03 at 2 46 25 PM" src="https://github.com/user-attachments/assets/98b18861-2390-4d18-bd23-d017fe004f7f" />
 
 Download Dashboard and Excel sheets: [Coffee sales dashboard.xlsx](https://github.com/user-attachments/files/23915464/Coffee.sales.dashboard.xlsx)
+
+# 6. Act
+
+# 1. What country had the highest amount of sales?
+
+United States — $35,639
+
+This is by far the largest bar on the Sales by Country chart.
+
+2nd place: Ireland — $6,697
+
+3rd place: United Kingdom — $2,799
+
+# 2. Who were the top five customers?
+
+From the Top 5 Customers chart:
+
+Allis Wilmore — $317
+
+Brenn Dundredge — $307
+
+Terri Farra — $289
+
+Nealson Cuttler — $282
+
+Don Flintiff — $278
+
+# 3. What is the best-selling type of coffee?
+
+Looking at the Total Sales Over Time chart:
+
+Liberica is the best-selling coffee type.
+
+Here’s why:
+
+Liberica reaches the highest peaks (over $800+).
+
+It consistently appears higher than Arabica, Robusta, and Excelsa in many months.
+
+It has the strongest upward spikes overall.
+
+# Business Insights
+
+# 1. Country-Level Sales Performance
+
+United States: $35,639 in total revenue — the largest market, contributing over 70% of all sales shown in the dashboard.
+
+Ireland: $6,697 in revenue — roughly 19% of U.S. sales but second-highest overall.
+
+United Kingdom: $2,799 in revenue — approximately 8% of U.S. sales.
+
+Overall Insight: The U.S. drives the majority of revenue, indicating a highly concentrated market opportunity.
+
+# 2. Top Customers and Revenue Contribution
+
+Allis Wilmore: $317
+
+Brenn Dundredge: $307
+
+Terri Farra: $289
+
+Nealson Cuttler: $282
+
+Don Flintiff: $278
+
+Insight: The top five customers contribute $1,473 total, making them a high-value segment worth targeting for loyalty and retention campaigns.
+
+# 3. Coffee Type Performance
+
+Liberica: Regularly peaks above $800 in monthly sales, the strongest performer.
+
+Arabica, Robusta, Excelsa: Lower and more stable compared to Liberica, with fewer high-value spikes.
+
+Insight: Liberica drives the highest revenue and should be prioritized in inventory, marketing, and promotions.
+
+# 4. Sales Trends Over Time
+
+Repeated monthly peaks reaching $600–$800, showing predictable seasonal demand cycles.
+
+Later periods (2021–2022) demonstrate higher and more consistent volume compared to earlier years.
+
+Insight: The trend indicates growing market engagement and increased repeat purchasing behavior over time.
+
+# 5. Market Opportunity Breakdown
+
+High-performing market: United States — large, stable customer base with strong revenue potential.
+
+Growth opportunity: Ireland — mid-tier revenue with room for expansion.
+
+Emerging market: United Kingdom — smaller contribution but steady engagement.
+
+# Business Impact
+
+The dashboard equips decision-makers with a clear view of where revenue is generated, which customers and products contribute most, and how sales behavior evolves over time. These insights can guide strategic actions such as strengthening U.S. customer loyalty, expanding marketing efforts in Ireland and the UK, optimizing inventory for Liberica, and leveraging seasonal sales cycles to improve promotions and planning.
+
+# Conclusion
+
+This project demonstrates the ability to transform raw datasets into a comprehensive analytical tool that supports real business decisions. Through data modeling, lookup automation, and visualization design, the final dashboard delivers both clarity and depth—making it a valuable asset for understanding performance, uncovering trends, and driving future growth within the coffee sales business.
+
+# Thank You
+
+Thank you for your interest and time. Feel free to give your valuable suggestions and connect with me on [LinkedIn](https://www.linkedin.com/in/tristan-tudorof/)
+
+
