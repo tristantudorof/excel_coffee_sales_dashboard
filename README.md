@@ -156,6 +156,8 @@ I selected the entire sheet, then went to the data tab and selected remove dupli
 
 I am now comfortable that my data has no duplicates. 
 
+# 4. Analyze
+
 # Converting Range To Table
 
 I selected all the coluns and rows then went to insert and Table. Selected all the rows and checked header. 
@@ -281,6 +283,8 @@ Next thing to do is make my timeline and slicers work on all of the graphs. To d
 
 
 <img width="614" height="338" alt="Screenshot 2025-12-03 at 3 13 55 AM" src="https://github.com/user-attachments/assets/786c402f-a4be-4d07-beaf-39b613ede5d5" />
+
+# 5. Share
 
 # The Finished Working Dashboard
 
