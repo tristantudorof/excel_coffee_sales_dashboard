@@ -288,6 +288,6 @@ Next thing to do is make my timeline and slicers work on all of the graphs. To d
 
 # The Finished Working Dashboard
 
-<img width="1292" height="574" alt="Screenshot 2025-12-03 at 3 20 17 AM" src="https://github.com/user-attachments/assets/34080b4b-d0fd-46fb-a93b-7d2d742ff154" />
+<img width="1290" height="572" alt="Screenshot 2025-12-03 at 2 46 25 PM" src="https://github.com/user-attachments/assets/98b18861-2390-4d18-bd23-d017fe004f7f" />
 
 Download Dashboard and Excel sheets: [Coffee sales dashboard.xlsx](https://github.com/user-attachments/files/23915464/Coffee.sales.dashboard.xlsx)
