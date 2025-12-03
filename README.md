@@ -97,6 +97,7 @@ Formula for Sales: =[@[Unit Price]]*[@Quantity]
 <img width="595" height="363" alt="Screenshot 2025-12-02 at 10 45 00 PM" src="https://github.com/user-attachments/assets/fe5e0ff3-2374-4bc7-add5-a8f35378cd01" />
 
 When looking at the columns, i noticed the Coffee Type gave the abbreviation of the coffee name. I will add a new column to give the full name of the coffee.
+
 Formual used to add full name: =IF(I3="Rob","Robusta",IF(I3="Exc","Excelsa",IF(I3="Ara","Arabica",IF(I3="Lib","Liberica",""))))
 
 <img width="636" height="478" alt="Screenshot 2025-12-02 at 10 55 31 PM" src="https://github.com/user-attachments/assets/dcd844f3-bd58-44ef-89e9-5d36e0d102ce" />
