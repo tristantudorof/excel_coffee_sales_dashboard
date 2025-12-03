@@ -294,47 +294,7 @@ Download Dashboard and Excel sheets: [Coffee sales dashboard.xlsx](https://githu
 
 # 6. Act
 
-# 1. What country had the highest amount of sales?
-
-United States — $35,639
-
-This is by far the largest bar on the Sales by Country chart.
-
-2nd place: Ireland — $6,697
-
-3rd place: United Kingdom — $2,799
-
-# 2. Who were the top five customers?
-
-From the Top 5 Customers chart:
-
-Allis Wilmore — $317
-
-Brenn Dundredge — $307
-
-Terri Farra — $289
-
-Nealson Cuttler — $282
-
-Don Flintiff — $278
-
-# 3. What is the best-selling type of coffee?
-
-Looking at the Total Sales Over Time chart:
-
-Liberica is the best-selling coffee type.
-
-Here’s why:
-
-Liberica reaches the highest peaks (over $800+).
-
-It consistently appears higher than Arabica, Robusta, and Excelsa in many months.
-
-It has the strongest upward spikes overall.
-
-# Business Insights
-
-# 1. Country-Level Sales Performance
+# 1. Country Sales Performance
 
 United States: $35,639 in total revenue — the largest market, contributing over 70% of all sales shown in the dashboard.
 
@@ -356,7 +316,7 @@ Nealson Cuttler: $282
 
 Don Flintiff: $278
 
-Insight: The top five customers contribute $1,473 total, making them a high-value segment worth targeting for loyalty and retention campaigns.
+Insight: Revenue is heavily concentrated among a small group of customers, highlighting the importance of maintaining strong engagement with high-value buyers.
 
 # 3. Coffee Type Performance
 
@@ -366,7 +326,7 @@ Arabica, Robusta, Excelsa: Lower and more stable compared to Liberica, with fewe
 
 Insight: Liberica drives the highest revenue and should be prioritized in inventory, marketing, and promotions.
 
-# 4. Sales Trends Over Time
+# Sales Trends Over Time
 
 Repeated monthly peaks reaching $600–$800, showing predictable seasonal demand cycles.
 
@@ -374,7 +334,7 @@ Later periods (2021–2022) demonstrate higher and more consistent volume compar
 
 Insight: The trend indicates growing market engagement and increased repeat purchasing behavior over time.
 
-# 5. Market Opportunity Breakdown
+# Market Opportunity Breakdown
 
 High-performing market: United States — large, stable customer base with strong revenue potential.
 
