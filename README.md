@@ -11,7 +11,7 @@ This project analyzes coffee orders using the six-step Google Data Analytics pro
 
 • Cleaning and preparing raw coffee order data.
 • Data transformation
-• Filtering, sorting, and Excel functions (VLOOKUP, IF)
+• Filtering, sorting, and Excel functions (VLOOKUP, IF, and INDEX MATCH)
 • Pivot Tables and Pivot Charts
 • Data visualization and dashboard creation
 • Analyzing purchase trends
