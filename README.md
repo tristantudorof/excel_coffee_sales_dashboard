@@ -6,9 +6,6 @@ This project analyzes coffee orders using the six-step Google Data Analytics pro
 
 <img width="1290" height="572" alt="Screenshot 2025-12-03 at 2 46 25 PM" src="https://github.com/user-attachments/assets/98b18861-2390-4d18-bd23-d017fe004f7f" />
 
-Download Dashboard and Excel sheets: [Coffee sales dashboard.xlsx](https://github.com/user-attachments/files/23915464/Coffee.sales.dashboard.xlsx)
-
-
 
 # Project Skills
 
