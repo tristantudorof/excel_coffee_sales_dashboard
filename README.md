@@ -26,7 +26,9 @@ Build an interactive sales dashboard to showcase coffee sales and analyze result
 # 1. Ask
 
 • What country had the highest amount of sales?
+
 • Who were the top five customers?
+
 • What is the best-selling type of coffee?
 
 # 2. Prepare
@@ -39,14 +41,20 @@ In Excel, 3 sheets are included in the dataset: Products, Customers, and Orders.
 
 Data gathering, 
 
-The Orders sheet has columns F through M where the data is not populated. The data sits in the other tables, and we will have to use XLOOKUP to get our data. The missing data includes Customer Name, Email, Country, Coffee Type, Roast Type, Size, Unit Price, and Sales.
+The Orders sheet has columns F through M where the data is not populated. The data sits in the other tables, and we will have to use XLOOKUP to get our data. 
+
+The missing data includes Customer Name, Email, Country, Coffee Type, Roast Type, Size, Unit Price, and Sales.
 
 The Customers sheet contains all customer data. The primary or unique key for the sheet is the customer_id, which links to individual customers.
 
 The Products sheet has the primary key product_id, which has information on specific coffees.
 
-I started by going back to the Orders sheet and gathering customer data using VLOOKUP. I wrote 3 formulas to populate Customer Name, Email, and Country.
+I started by going back to the Orders sheet and gathering customer data using VLOOKUP.
+
+I wrote 3 formulas to populate Customer Name, Email, and Country.
+
 Then I used INDEX MATCH to gather the product data.
+
 INDEX MATCH is dynamic, so I wrote a single formula to populate all of the columns.
 
 # VLOOKUP
