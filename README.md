@@ -33,7 +33,7 @@ Build an interactive sales dashboard to showcase coffee sales and analyze result
 
 # 2. Prepare
 
-Dataset: [coffeeOrdersData.xlsx](https://github.com/user-attachments/files/23893265/coffeeOrdersData.xlsx) raw dataset containing detailed coffee orders.
+Starting Dataset: [coffeeOrdersData.xlsx](https://github.com/user-attachments/files/23893265/coffeeOrdersData.xlsx) raw dataset containing detailed coffee orders.
 
 In Excel, 3 sheets are included in the dataset: Products, Customers, and Orders.
 
