@@ -9,7 +9,7 @@ This project analyzes coffee orders using the six-step Google Data Analytics pro
 
 # Project Skills
 
-• Cleaning and preparing raw coffee order data.
+• Cleaning and preparing raw data.
 • Data transformation
 • Filtering, sorting, and Excel functions (VLOOKUP, IF, and INDEX MATCH)
 • Pivot Tables and Pivot Charts
