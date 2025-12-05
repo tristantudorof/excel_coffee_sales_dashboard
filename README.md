@@ -357,6 +357,7 @@ Insight: The month-level trends indicate increasing customer loyalty, stronger b
 High-Performing Market: United States
 
 The U.S. represents the largest and most reliable customer base with strong revenue output.
+
 Business Proposals:
 
 • Expand premium product lines (seasonal blends, subscription boxes).
@@ -368,6 +369,7 @@ Business Proposals:
 Growth Opportunity: Ireland
 
 Ireland shows mid-tier revenue but clear potential for market expansion.
+
 Business Proposals:
 
 • Increase localized marketing efforts, including region-specific promotions.
@@ -379,6 +381,7 @@ Business Proposals:
 Emerging Market: United Kingdom
 
 The UK currently contributes a smaller share but shows steady, reliable engagement.
+
 Business Proposals:
 
 • Explore distribution partnerships to reduce shipping costs and improve delivery times.
