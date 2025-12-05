@@ -354,7 +354,9 @@ Insight: The month-level trends indicate increasing customer loyalty, stronger b
 
 # Market Opportunity Breakdown
 
-High-Performing Market: United States
+The market analysis shows a dominant U.S. customer base, clear expansion potential in Ireland, and emerging long term growth opportunities in the United Kingdom.
+
+# High-Performing Market: United States
 
 The U.S. represents the largest and most reliable customer base with strong revenue output.
 
@@ -366,7 +368,7 @@ Business Proposals:
 
 • Introduce loyalty program enhancements to strengthen long-term value.
 
-Growth Opportunity: Ireland
+# Growth Opportunity: Ireland
 
 Ireland shows mid-tier revenue but clear potential for market expansion.
 
@@ -378,7 +380,7 @@ Business Proposals:
 
 • Offer introductory discounts or bundle deals to accelerate adoption.
 
-Emerging Market: United Kingdom
+# Emerging Market: United Kingdom
 
 The UK currently contributes a smaller share but shows steady, reliable engagement.
 
