@@ -41,21 +41,19 @@ In Excel, 3 sheets are included in the dataset: Products, Customers, and Orders.
 
 Data gathering, 
 
-The Orders sheet has columns F through M where the data is not populated. The data sits in the other tables, and we will have to use XLOOKUP to get our data. 
+The Orders sheet includes columns F through M that are initially unpopulated. All of the missing information exists across the other reference tables, so I use lookup functions primarily VLOOKUP and INDEX/MATCH to retrieve and fill in the data.
 
-The missing data includes Customer Name, Email, Country, Coffee Type, Roast Type, Size, Unit Price, and Sales.
+The missing fields are: Customer Name, Email, Country, Coffee Type, Roast Type, Size, Unit Price, and Sales.
 
-The Customers sheet contains all customer data. The primary or unique key for the sheet is the customer_id, which links to individual customers.
+The Customers sheet stores all customer-related information. Its primary (unique) key is customer_id, which is used to identify each customer and link their details back to the Orders sheet.
 
-The Products sheet has the primary key product_id, which has information on specific coffees.
+The Products sheet contains product information. Its primary key, product_id, corresponds to each type of coffee and provides the details needed to complete the order records.
 
-I started by going back to the Orders sheet and gathering customer data using VLOOKUP.
+I began by returning to the Orders sheet and pulling in the customer information. To do this, I used VLOOKUP to populate the fields for Customer Name, Email, and Country. These three formulas reference the customer_id in each order and return the associated customer details from the Customers sheet.
 
-I wrote 3 formulas to populate Customer Name, Email, and Country.
+Next, I used INDEX/MATCH to retrieve the product-related data. Because INDEX/MATCH is dynamic and flexible, I was able to write a single formula that could be copied across multiple columns to fill in Coffee Type, Roast Type, Size, Unit Price, and Sales from the Products sheet.
 
-Then I used INDEX MATCH to gather the product data.
-
-INDEX MATCH is dynamic, so I wrote a single formula to populate all of the columns.
+This approach created a fully populated Orders table using clean, formula-driven lookups across the dataset.
 
 # VLOOKUP
 
@@ -130,7 +128,11 @@ Formula used: =IF(J3="M","Medium",IF(J3="L","Light",IF(J3="D","Dark","")))
 
 # Date Formatting 
 
-I formatted dates to display as dd-mmm-yyyy.
+I formatted dates to display as DD-MM-YYYY.
+
+Standardizing dates as DD-MM-YYYY ensures consistent interpretation, accurate analysis, and reliable matching across my dataset.
+
+Also i can better analyze the sales by months rather than a more general time frame like years.
 
 To do so I selected all of the Order Dates then went to format cells and changed it to custom.
 
@@ -344,19 +346,46 @@ Insight: Liberica drives the highest revenue and should be prioritized in invent
 
 # Sales Trends Over Time
 
-Repeated monthly peaks reaching $600–$800, showing predictable seasonal demand cycles.
+Monthly sales show recurring peaks between $600–$800, typically occurring during the same periods each year. These patterns highlight a predictable seasonal cycle, where certain months consistently outperform others likely tied to promotional periods, holidays, or recurring customer buying habits.
 
-Later periods (2021–2022) demonstrate higher and more consistent volume compared to earlier years.
+Across the timeline, early years show more fluctuation month to month, while the later period (2021–2022) reflects steadier month over month performance with fewer dips and stronger midyear rebounds. This suggests the business is stabilizing its customer base and smoothing out seasonal volatility.
 
-Insight: The trend indicates growing market engagement and increased repeat purchasing behavior over time.
+Insight: The month-level trends indicate increasing customer loyalty, stronger brand presence, and more dependable purchasing patterns over time.
 
 # Market Opportunity Breakdown
 
-High-performing market: United States — large, stable customer base with strong revenue potential.
+High-Performing Market: United States
 
-Growth opportunity: Ireland — mid-tier revenue with room for expansion.
+The U.S. represents the largest and most reliable customer base with strong revenue output.
+Business Proposals:
 
-Emerging market: United Kingdom — smaller contribution but steady engagement.
+• Expand premium product lines (seasonal blends, subscription boxes).
+
+• Launch targeted retention campaigns to increase order frequency.
+
+• Introduce loyalty program enhancements to strengthen long-term value.
+
+Growth Opportunity: Ireland
+
+Ireland shows mid-tier revenue but clear potential for market expansion.
+Business Proposals:
+
+• Increase localized marketing efforts, including region-specific promotions.
+
+• Partner with local influencers or cafés to build brand presence.
+
+• Offer introductory discounts or bundle deals to accelerate adoption.
+
+Emerging Market: United Kingdom
+
+The UK currently contributes a smaller share but shows steady, reliable engagement.
+Business Proposals:
+
+• Explore distribution partnerships to reduce shipping costs and improve delivery times.
+
+• Test new product varieties tailored to UK preferences (light roast, specialty blends).
+
+• Run awareness-building campaigns to convert engaged users into higher-value customers.
 
 # Business Impact
 
