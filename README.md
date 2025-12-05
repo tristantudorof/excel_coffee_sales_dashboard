@@ -1,6 +1,6 @@
 # Excel Coffee Sales Dashboard
 
-This project explores and analyzes coffee order trends to uncover insights that can help coffee shops make smarter decisions based on customer preferences and sales behavior.
+This project analyzes coffee orders using the six-step Google Data Analytics process, Ask, Prepare, Process, Analyze, Share, and Act. To identify key trends and uncover insights that help make smarter decisions based on customer preferences and sales behavior.
 
 # Finished Dashboard
 
