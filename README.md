@@ -1,6 +1,6 @@
 # Excel Coffee Sales Dashboard
 
-This project analyzes coffee orders using the six-step Google Data Analytics process, Ask, Prepare, Process, Analyze, Share, and Act. To identify key trends and uncover insights that help make smarter decisions based on customer preferences and sales behavior.
+This project analyzes coffee orders using the six-step Google Data Analytics process: Ask, Prepare, Process, Analyze, Share, and Act. To identify key trends and uncover insights that help make smarter decisions based on customer preferences and sales behavior.
 
 # Finished Dashboard
 
@@ -38,7 +38,7 @@ In Excel, 3 sheets are included in the dataset: Products, Customers, and Orders.
 
 Data gathering, 
 
-The Orders sheet includes columns F through M that are initially unpopulated. All of the missing information exists across the other reference tables, so I use lookup functions primarily VLOOKUP and INDEX/MATCH to retrieve and fill in the data.
+The Orders sheet includes columns F through M that are initially unpopulated. All of the missing information exists across the other reference tables, so I use lookup functions, primarily VLOOKUP and INDEX/MATCH, to retrieve and fill in the data.
 
 The missing fields are: Customer Name, Email, Country, Coffee Type, Roast Type, Size, Unit Price, and Sales.
 
@@ -77,7 +77,7 @@ Formula for Country: =VLOOKUP(C2, customers!$A$2:$G$1001, 7, FALSE)
 
 <img width="562" height="361" alt="Screenshot 2025-12-02 at 9 52 22 PM" src="https://github.com/user-attachments/assets/f3bdf001-ccc0-4a8a-a009-d356d00d7bce" />
 
-I now had all necessary customer data.
+I now had all the necessary customer data.
 
 Next, I moved on to the product details, gathering data from the Products sheet to populate the Orders sheet. 
 
@@ -127,17 +127,17 @@ Formula used: =IF(J3="M","Medium",IF(J3="L","Light",IF(J3="D","Dark","")))
 
 I formatted dates to display as DD-MM-YYYY.
 
-Standardizing dates as DD-MM-YYYY ensures consistent interpretation, accurate analysis, and reliable matching across my dataset.
+Standardising dates as DD-MM-YYYY ensures consistent interpretation, accurate analysis, and reliable matching across my dataset.
 
-Also i can better analyze the sales by months rather than a more general time frame like years.
+Also, I can better analyse the sales by months rather than a more general time frame like years.
 
-To do so I selected all of the Order Dates then went to format cells and changed it to custom.
+To do so, I selected all of the Order Dates, then went to format cells and changed it to custom.
 
 <img width="605" height="482" alt="Screenshot 2025-12-02 at 11 35 44 PM" src="https://github.com/user-attachments/assets/10b0f2e8-3c2c-4f79-b931-786aa19d0fd7" />
 
 # Number Formatting
 
-Currently, we could not see the metric for Size.
+Currently, we cannot see the metric for Size.
 
 <img width="71" height="225" alt="Screenshot 2025-12-02 at 11 39 18 PM" src="https://github.com/user-attachments/assets/8941858d-164a-429e-9baa-bc69d0a4add0" />
 
@@ -151,7 +151,7 @@ Size is now displaying kg after the number.
 
 Next, I formatted Unit Price and Sales to USD.
 
-I selected all rows under Unit Price and Sales then went to numbers and selected USD. 
+I selected all rows under Unit Price and Sales, then went to numbers and selected USD. 
 
 The Price and Sales columns are now in USD.
 
@@ -159,7 +159,7 @@ The Price and Sales columns are now in USD.
 
 # Checking For Duplicate Values
 
-I selected the entire sheet, then went to the data tab and selected remove duplicates.
+I selected the entire sheet, then went to the data tab and selected Remove Duplicates.
 
 <img width="487" height="324" alt="Screenshot 2025-12-02 at 11 58 41 PM" src="https://github.com/user-attachments/assets/8e0bedc8-fb34-4cda-b128-b5af24b86df8" />
 
@@ -169,7 +169,7 @@ I am now confident the data has no duplicates. This is important for many reason
 
 1. Order IDs are meant to be unique identifiers
 
-Each Order ID should represent one specific transaction. If a duplicates exist, you can’t reliably tell which row is the “real” order.
+Each Order ID should represent one specific transaction. If duplicates exist, you can’t reliably tell which row is the “real” order.
 
 2. Duplicates can inflate totals
 
@@ -179,7 +179,7 @@ Metrics like total sales, number of orders, revenue by customer, or product dema
 
 # Converting Range To Table
 
-I selected all the coluns and rows then went to insert and Table. Selected all the rows and checked header. 
+I selected all the columns and rows, then went to insert and Table. Selected all the rows and checked the header. 
 
 <img width="1272" height="421" alt="Screenshot 2025-12-03 at 12 13 32 AM" src="https://github.com/user-attachments/assets/56798efe-8df5-429c-89ce-9ef2081cc3b1" />
 
@@ -225,19 +225,19 @@ Next, I inserted a timeline.
 
 <img width="352" height="329" alt="Screenshot 2025-12-03 at 1 04 05 AM" src="https://github.com/user-attachments/assets/5e97b624-f110-4c2b-9929-f3c1403876eb" />
 
-Then make a duplicate of the timeline style so i can modify the format and change the colors.
+Then make a duplicate of the timeline style so I can modify the format and change the colors.
 
 And we end up with this.
 
 <img width="722" height="555" alt="Screenshot 2025-12-03 at 1 28 21 AM" src="https://github.com/user-attachments/assets/d8b6e2ed-88a4-40da-bc27-1fbfe390fea0" />
 
-Next I added slicers to filter the data.
+Next, I added slicers to filter the data.
 
-Click on chart -> pivot chart analyzer -> insert slicer -> then selected size and roast type name -> hit okay.
+Click on chart -> pivot chart analyser -> insert slicer -> then selected size and roast type name -> hit okay.
 
-I realized i also want loyalty card member to be added so i went back to the Orders sheet.
+I realised I also want loyalty card members to be added, so I went back to the Orders sheet.
 
-In column P1 i added a column named Loyalty Card and filled the cells loyalty card data from the cells in the customers sheet.
+In column P1 I added a column named Loyalty Card and filled the cells with loyalty card data from the cells in the customers sheet.
 
 <img width="229" height="276" alt="Screenshot 2025-12-03 at 1 56 06 AM" src="https://github.com/user-attachments/assets/f839ca08-a162-4ebc-89d7-c92500d98bb0" />
 
@@ -251,7 +251,7 @@ I formatted the slicers to match the dashboard design.
 
 <img width="1459" height="852" alt="Screenshot 2025-12-03 at 2 06 53 AM" src="https://github.com/user-attachments/assets/0b02f36c-5f26-4662-bdfb-eed83fb5a3e9" />
 
-Now that im happy with that its time to make the sales by country and top 5 customers bar charts.
+Now that I'm happy with that it's time to make the sales by country and top 5 customers bar charts.
 
 # Bar Charts
 
@@ -265,11 +265,11 @@ Insert -> Bar Chart
 
 <img width="804" height="595" alt="Screenshot 2025-12-03 at 2 19 37 AM" src="https://github.com/user-attachments/assets/e73ffb3d-a0ed-4b6d-9e40-18eba60cc017" />
 
-I want the top Sales Counrty to come at the top and lowest at the bottom, so I sort ascending with sum of sales.
+I want the top Sales Country to come at the top and the lowest at the bottom, so I sort ascending by the sum of sales.
 
 <img width="705" height="472" alt="Screenshot 2025-12-03 at 2 22 29 AM" src="https://github.com/user-attachments/assets/89328b1e-be17-464f-b602-865170e0863f" />
 
-Formatted the bar chart, adding data lables and changing the sum of sales to currency with no decimal points.
+Formatted the bar chart, adding data labels and changing the sum of sales to currency with no decimal points.
 
 <img width="1228" height="638" alt="Screenshot 2025-12-03 at 2 30 40 AM" src="https://github.com/user-attachments/assets/93ba6d97-76e0-4a6c-9610-3af68f9a32d8" />
 
@@ -294,7 +294,7 @@ I inserted a shape to create a banner and added the title “Coffee Sales Dashbo
 
 <img width="1379" height="582" alt="Screenshot 2025-12-03 at 3 11 49 AM" src="https://github.com/user-attachments/assets/5985f8c3-1fd6-44e4-9d1a-29cf3b87ef4c" />
 
-I set the timeline and slicers to filter all Pivot Tables using Report Connections. To do this i clicked on the timeline and then Report Connections and selected all of the sheets. I repeated that step for each slicer.
+I set the timeline and slicers to filter all Pivot Tables using Report Connections. To do this, I clicked on the timeline and then Report Connections and selected all of the sheets. I repeated that step for each slicer.
 
 
 <img width="614" height="338" alt="Screenshot 2025-12-03 at 3 13 55 AM" src="https://github.com/user-attachments/assets/786c402f-a4be-4d07-beaf-39b613ede5d5" />
@@ -343,7 +343,7 @@ Insight: Liberica drives the highest revenue and should be prioritized in invent
 
 # Sales Trends Over Time
 
-Monthly sales show recurring peaks between $600–$800, typically occurring during the same periods each year. These patterns highlight a predictable seasonal cycle, where certain months consistently outperform others likely tied to promotional periods, holidays, or recurring customer buying habits.
+Monthly sales show recurring peaks between $600–$800, typically occurring during the same periods each year. These patterns highlight a predictable seasonal cycle, where certain months consistently outperform others, likely tied to promotional periods, holidays, or recurring customer buying habits.
 
 Across the timeline, early years show more fluctuation month to month, while the later period (2021–2022) reflects steadier month over month performance with fewer dips and stronger midyear rebounds. This suggests the business is stabilizing its customer base and smoothing out seasonal volatility.
 
